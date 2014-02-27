@@ -1,0 +1,182 @@
+[
+  {
+    "name" : "Seattle's Heritage Trees",
+    "description" : "Map of Seattle Heritage Trees, data from http://www.seattle.gov/transportation/heritagetree.htm",
+    "url" : "",
+    "code_url" : "https://gist.github.com/tsibley/4076859",
+    "tags" : "map",
+    "contributors": [],
+    "status": "abandoned"
+  },
+  {
+    "name" : "Geo Sub",
+    "description" : "Geographic based subscription service",
+    "url" : "",
+    "code_url" : "http://github.com/willscott/geosub",
+    "tags" : "geographic, notifications",
+    "contributors": ["willscott"],
+    "status": "in progress"
+  },
+  {
+    "name" : "NW Data",
+    "description" : "A directory of open civic data resources for the Pacific Northwest.",
+    "url" : "http://nwdata.org",
+    "code_url" : "https://github.com/sethvincent/nwdata.org",
+    "tags" : "data, portal",
+    "contributors": ["sethvincent"],
+    "status": "live"
+  },
+  {
+    "name" : "Deglassified",
+    "description" : "A catalog of businesses with policies against Google Glass",
+    "url" : "http://deglassified.com",
+    "code_url" : "http://github.com/licyeus/deglassified",
+    "tags" : "map, privacy",
+    "contributors": ["licyeus", "andrelevi"],
+    "status": "in progress"
+  },
+  {
+    "name" : "Seattle Blogs",
+    "description" : "A list of Seattle-based blogs.",
+    "url" : "http://seattle-blogs.herokuapp.com/",
+    "code_url" : "https://github.com/sethvincent/seattle-blogs",
+    "tags" : "blogs, community",
+    "contributors": ["sethvincent", "licyeus"],
+    "status": "live"
+  },
+  {
+    "name" : "Streetlight Seattle Reporter",
+    "description" : "Android app to report problems with streetlights.",
+    "url" : "https://play.google.com/store/apps/details?id=org.codeforseattle.streetlightseattlereporter",
+    "code_url" : "https://github.com/jsfrost/StreetlightSeattleReporter",
+    "tags" : "android, streetlight, 311",
+    "contributors": ["jsfrost"],
+    "status": "live"
+  },
+  {
+    "name" : "Seattle Wiki",
+    "description" : "Seattle LocalWiki instance",
+    "url" : "http://seattlewiki.net",
+    "code_url" : "",
+    "tags" : "wiki",
+    "contributors": ["sethdvincent"], // TODO: add lots of contributors
+    "status": "live"
+  },
+  {
+    "name" : "Candid Candidates",
+    "description" : "Chrome extension to show you information about politicians in news articles.",
+    "url" : "",
+    "code_url" : "https://github.com/typpo/political-annotations",
+    "tags" : "chrome, extension",
+    "contributors": ["typpo", "GHowlett", "amiranda222", "thachp", "loudest"],
+    "status": "in progress"
+  },
+  {
+    "name" : "LocalWiki node client",
+    "description" : "A node.js wrapper for the LocalWiki API",
+    "url" : "",
+    "code_url" : "https://github.com/codeforseattle/node-localwiki-client",
+    "tags" : "node, localwiki, api",
+    "contributors": ["sethvincent", "willscott"],
+    "status": "live"
+  },
+  {
+    "name" : "LocalWiki ruby client",
+    "description" : "A ruby wrapper for the LocalWiki API",
+    "url" : "",
+    "code_url" : "https://github.com/codeforseattle/localwiki_client",
+    "tags" : "ruby, localwiki, api",
+    "contributors": ["bfaloona", "hcanzl", "sethvincent"],
+    "status": "live"
+  },
+  {
+    "name" : "Seattle Food Truck Map",
+    "description" : "A map of Seattle food trucks",
+    "url" : "http://seattlefoodtrucks.herokuapp.com",
+    "code_url" : "https://github.com/licyeus/food-truck-map",
+    "tags" : "food trucks, map",
+    "contributors": ["licyeus"],
+    "status": "abandoned"
+  },
+  {
+    "name" : "Seattle GeoJSON datasets",
+    "description" : "A collection of Seattle-related GeoJSON files",
+    "url" : "",
+    "code_url" : "https://github.com/licyeus/seattle-geojson",
+    "tags" : "data, map",
+    "contributors": ["licyeus"],
+    "status": ""
+  },
+  {
+    "name" : "Seattle One Night Count datasets",
+    "description" : "A conversion of the Seattle yearly homeless count data from PDF into JSON.",
+    "url" : "",
+    "code_url" : "https://github.com/licyeus/seattle-homeless-info",
+    "tags" : "homeless, data",
+    "contributors": ["licyeus"],
+    "status": "in progress"
+  },
+  {
+    "name" : "Seattle Open Data Policy proposal",
+    "description" : "A draft of a proposed open data policy for the city of Seattle",
+    "url" : "http://bit.ly/SeattleDataPolicy",
+    "code_url" : "",
+    "tags" : "data, policy, #codeacross",
+    "contributors": ["licyeus (Andrew Sullivan)", "Tre Maxie", "Jig Wiley", "Sid Burgess", "Emily K"],
+    "status": "in progress"
+  },
+  {
+    "name" : "Seattle Data Inventory",
+    "description" : "A collection of Seattle open data resources",
+    "url" : "http://seattlewiki.net/Open_Data_Resources",
+    "code_url" : "",
+    "tags" : "data, #codeacross",
+    "contributors": [], // TODO: add lots of contribs
+    "status": "live"
+  },
+  {
+    "name" : "Realtime Transit Data",
+    "description" : "A map with realtime bus locations using the OneBusAway API",
+    "url" : "http://domoritz.de/live-bus-seattle/",
+    "code_url" : "https://github.com/domoritz/live-bus-seattle",
+    "tags" : "bus, realtime, map, #codeacross",
+    "contributors": ["domoritz", "amiranda222", "oifland-d7"],
+    "status": "live"
+  },
+  {
+    "name" : "Stolen Bike App",
+    "description" : "A map of stolen bikes in Seattle",
+    "url" : "http://bike.jumis.com/index.html",
+    "code_url" : "https://github.com/lcdvirgo/stolenbikesSEA",
+    "tags" : "bike, theft, map, #codeacross",
+    "contributors": ["lcdvirgo", "andrelevi"],
+    "status": "live"
+  },
+  {
+    "name" : "Seattle Broadband Map",
+    "description" : "A map of Seattle broadband speeds",
+    "url" : "",
+    "code_url" : "",
+    "tags" : "broadband, map, #codeacross",
+    "contributors": [],
+    "status": "in progress"
+  },
+  {
+    "name" : "Icons for Seattle",
+    "description" : "",
+    "url" : "",
+    "code_url" : "",
+    "tags" : "",
+    "contributors": [],
+    "status": ""
+  },
+  {
+    "name" : "Seattle Metro Cuts",
+    "description" : "A map of metro cuts affecting King County transit",
+    "url" : "http://codeforseattle.org/metrocuts/",
+    "code_url" : "https://github.com/codeforseattle/metrocuts",
+    "tags" : "",
+    "contributors": [],
+    "status": "in progress"
+  },
+]
