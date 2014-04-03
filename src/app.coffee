@@ -6,14 +6,13 @@ Handlebars.registerHelper 'makeFullURI', (uri) ->
 
 $ ->
   spreadsheet_url = 'http://spreadsheets.google.com/feeds/list/0Ao0MEp85bWtGdEJ6alJDUWptTTlNbnN1TC03d1NMNlE/od6/public/values?alt=json-in-script'
-  window.projects = []
+  projects = []
   $project_listing = $('#project-listing')
   project_handlebars = $('#project-template').html()
   project_template = Handlebars.compile(project_handlebars)
 
   $.getJSON spreadsheet_url + '&callback=?', (data) ->
     $.each data.feed.entry, (index, project) ->
-      console.log project
       projects.push({
         name: project.gsx$name.$t
         code_url: project.gsx$codeurl.$t
